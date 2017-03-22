@@ -1,0 +1,22 @@
+{
+  "name": "yssRotateView",
+  "version": "0.1.0",
+  "summary": "A short description of yssRotateView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/acct<blob>=0xE8B5A4E9B1AC/yssRotateView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "acct<blob>=0xE8B5A4E9B1AC": "chiru.yyp@cainiao.com"
+  },
+  "source": {
+    "git": "https://github.com/acct<blob>=0xE8B5A4E9B1AC/yssRotateView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "yssRotateView/Classes/**/*"
+}

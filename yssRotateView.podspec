@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/acct<blob>=0xE8B5A4E9B1AC/yssRotateView'
+  s.homepage         = 'http://blog.csdn.net/zhouyelihua'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'acct<blob>=0xE8B5A4E9B1AC' => 'chiru.yyp@cainiao.com' }
+  s.author           = { '叶于平' => 'yeahpingye@gmail.com' }
   s.source           = { :git => 'https://github.com/acct<blob>=0xE8B5A4E9B1AC/yssRotateView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
