@@ -22,8 +22,7 @@ pod "yssRotateView"
 ```
 
 ## Author
-
-acct<blob>=0xE8B5A4E9B1AC, chiru.yyp@cainiao.com
+yyp,    email:yeahpingye@gmail.com
 
 ## License
 
