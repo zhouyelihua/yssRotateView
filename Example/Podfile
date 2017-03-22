@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'yssRotateView_Example' do
+  pod 'yssRotateView', :path => '../'
+
+  target 'yssRotateView_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end
