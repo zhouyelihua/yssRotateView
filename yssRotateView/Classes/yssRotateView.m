@@ -59,7 +59,8 @@
     _scrollView.frame=self.bounds;
     _scrollView.contentSize = CGSizeMake(self.bounds.size.width * 3, self.bounds.size.height);
     _scrollView.contentOffset = CGPointMake(self.bounds.size.width, 0);
-    [self manualLoadData];
+    if(self.totalPages>1)
+        [self manualLoadData];
 }
 -(void) bindCellDataWithcellsCount:(NSInteger)count bindCellDataHandle:(yssBindCellDataIndexBlock)bindDataBlock{
     self.totalPages=count;

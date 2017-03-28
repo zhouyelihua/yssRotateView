@@ -1,0 +1,6 @@
+framework module yssRotateView {
+  umbrella header "yssRotateView-umbrella.h"
+
+  export *
+  module * { export * }
+}

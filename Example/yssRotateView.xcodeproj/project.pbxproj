@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D54048466D62C1BA2AAF719 /* Pods_yssRotateView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACB4F58C0586A4D85B34680 /* Pods_yssRotateView_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,6 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B6A09C9D1E8931BC0076B7D1 /* yssBannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A09C9C1E8931BC0076B7D1 /* yssBannerCell.m */; };
+		DA84DBE68BACB9CE197D3AE0 /* Pods_yssRotateView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE3A2C302E78D60BEC32F1A /* Pods_yssRotateView_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		198549CF51E64D19D7B472EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		198549CF51E64D19D7B472EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1ECC4DFB37ACE9300632767D /* Pods-yssRotateView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yssRotateView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-yssRotateView_Example/Pods-yssRotateView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2890DE730A92FC589A9ABEFB /* Pods-yssRotateView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yssRotateView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yssRotateView_Example/Pods-yssRotateView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* yssRotateView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yssRotateView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,10 +60,16 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		61100EADB7BF08F065E6B751 /* yssRotateView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = yssRotateView.podspec; path = ../yssRotateView.podspec; sourceTree = "<group>"; };
+		61100EADB7BF08F065E6B751 /* yssRotateView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = yssRotateView.podspec; path = ../yssRotateView.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86DFFCC19DA499E7A344ABD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		86DFFCC19DA499E7A344ABD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		908AB58E0408249F025F7751 /* Pods-yssRotateView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yssRotateView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yssRotateView_Tests/Pods-yssRotateView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DE3A2C302E78D60BEC32F1A /* Pods_yssRotateView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yssRotateView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A09C9B1E8931BC0076B7D1 /* yssBannerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yssBannerCell.h; sourceTree = "<group>"; };
+		B6A09C9C1E8931BC0076B7D1 /* yssBannerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yssBannerCell.m; sourceTree = "<group>"; };
+		D68C4A3BFCD5CB2A50D04087 /* Pods-yssRotateView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yssRotateView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yssRotateView_Tests/Pods-yssRotateView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DACB4F58C0586A4D85B34680 /* Pods_yssRotateView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yssRotateView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				2D54048466D62C1BA2AAF719 /* Pods_yssRotateView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +91,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				DA84DBE68BACB9CE197D3AE0 /* Pods_yssRotateView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +106,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
+				899226ED35BA65F67AE9D877 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +126,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
+				DACB4F58C0586A4D85B34680 /* Pods_yssRotateView_Example.framework */,
+				9DE3A2C302E78D60BEC32F1A /* Pods_yssRotateView_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,6 +135,8 @@
 		6003F593195388D20070C39A /* Example for yssRotateView */ = {
 			isa = PBXGroup;
 			children = (
+				B6A09C9B1E8931BC0076B7D1 /* yssBannerCell.h */,
+				B6A09C9C1E8931BC0076B7D1 /* yssBannerCell.m */,
 				6003F59C195388D20070C39A /* yssAppDelegate.h */,
 				6003F59D195388D20070C39A /* yssAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -172,6 +190,17 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		899226ED35BA65F67AE9D877 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2890DE730A92FC589A9ABEFB /* Pods-yssRotateView_Example.debug.xcconfig */,
+				1ECC4DFB37ACE9300632767D /* Pods-yssRotateView_Example.release.xcconfig */,
+				908AB58E0408249F025F7751 /* Pods-yssRotateView_Tests.debug.xcconfig */,
+				D68C4A3BFCD5CB2A50D04087 /* Pods-yssRotateView_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -179,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "yssRotateView_Example" */;
 			buildPhases = (
+				AC56F107D9E63602601C6730 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				720BDBB7165020EA7A9E68C4 /* [CP] Embed Pods Frameworks */,
+				F59F9FC16EF75B0E8DF73DCA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "yssRotateView_Tests" */;
 			buildPhases = (
+				876175F19B64EBD90846DFBE /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				28A67C1BB23FF7FD10915ED3 /* [CP] Embed Pods Frameworks */,
+				3B37972F077A4955E755133A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,7 +260,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "yssRotateView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -266,6 +301,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28A67C1BB23FF7FD10915ED3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yssRotateView_Tests/Pods-yssRotateView_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B37972F077A4955E755133A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yssRotateView_Tests/Pods-yssRotateView_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		720BDBB7165020EA7A9E68C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yssRotateView_Example/Pods-yssRotateView_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		876175F19B64EBD90846DFBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC56F107D9E63602601C6730 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F59F9FC16EF75B0E8DF73DCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yssRotateView_Example/Pods-yssRotateView_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -274,6 +402,7 @@
 				6003F59E195388D20070C39A /* yssAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* yssViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				B6A09C9D1E8931BC0076B7D1 /* yssBannerCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +527,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2890DE730A92FC589A9ABEFB /* Pods-yssRotateView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -412,6 +542,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECC4DFB37ACE9300632767D /* Pods-yssRotateView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -426,6 +557,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 908AB58E0408249F025F7751 /* Pods-yssRotateView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -449,6 +581,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D68C4A3BFCD5CB2A50D04087 /* Pods-yssRotateView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -469,7 +602,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "yssRotateView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,

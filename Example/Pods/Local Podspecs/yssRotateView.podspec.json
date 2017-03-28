@@ -1,19 +1,19 @@
 {
   "name": "yssRotateView",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of yssRotateView.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/acct<blob>=0xE8B5A4E9B1AC/yssRotateView",
+  "homepage": "http://blog.csdn.net/zhouyelihua",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "acct<blob>=0xE8B5A4E9B1AC": "chiru.yyp@cainiao.com"
+    "叶于平": "yeahpingye@gmail.com"
   },
   "source": {
-    "git": "https://github.com/acct<blob>=0xE8B5A4E9B1AC/yssRotateView.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/zhouyelihua/yssRotateView.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
